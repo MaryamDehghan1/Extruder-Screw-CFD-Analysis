@@ -76,9 +76,3 @@ Limitations
 Software
 
 ANSYS Fluent
-
-ANSYS Fluent
-
-Repository Contents
-
-Only selected result figures and project documentation are provided. The full simulation files are not included.
