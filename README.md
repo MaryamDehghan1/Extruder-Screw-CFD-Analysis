@@ -2,9 +2,11 @@ CFD Analysis of Material Flow in an Extruder Screw
 
 Overview
 
-This project presents a computational fluid dynamics (CFD) analysis of material flow in a single-screw extruder using ANSYS Fluent. The simulation focuses on the pressure and temperature fields within the modeled extrusion domain.
+This project presents a computational fluid dynamics (CFD) simulation of material flow in a single-screw extruder using ANSYS Fluent.
 
-The screw geometry was selected with reference to a published master's thesis. The CFD model was set up and simulated independently in ANSYS Fluent. Selected results were then compared with results reported in the reference study.
+The main objective is to investigate the pressure and temperature fields within the modeled extrusion domain. The screw geometry was selected with reference to a published master's thesis, while the simulation setup and analysis were carried out independently in ANSYS Fluent.
+
+Selected results are presented alongside a reference study for qualitative comparison. Similarities in geometry or operating conditions do not, by themselves, establish quantitative validation.
 
 Model Setup
 
@@ -18,27 +20,39 @@ Model Setup
 - Outlet boundary condition: Outflow
 - Barrel wall condition: Zero wall velocity
 
-These parameters describe the current simulation setup. Further material properties, boundary conditions, and numerical settings may be documented as additional details become available.
+These parameters describe the current simulation setup. They should be interpreted in the context of the model assumptions and boundary conditions used in ANSYS Fluent.
 
-Results
+Simulation Results
 
-Screw Geometry
+1. Screw Geometry
 
 "Screw Geometry" (screw_geometry.png)
 
-Pressure Contour
+Geometry used in the CFD simulation.
+
+2. Pressure Contour
 
 "Pressure Contour" (pressure_contour.png)
 
-Temperature Contour
+Pressure field obtained from the simulation.
+
+3. Temperature Contour
 
 "Temperature Contour" (tempreture_contour.png)
 
-Reference Comparison
+Temperature field obtained from the simulation.
+
+4. Reference Comparison
 
 "Reference Comparison" (refrence-comparision.png)
 
-The comparison presents selected results from the reference study. Differences in software, numerical methods, model assumptions, and operating conditions should be considered when interpreting the results.
+Selected results compared with the published reference study.
+
+5. Mesh Visualization
+
+"Mesh Visualization" (mesh_visualization.png)
+
+Computational mesh used for discretizing the simulation domain.
 
 Reference
 
@@ -50,7 +64,9 @@ The reference study uses ANSYS Polyflow, whereas the present simulation was perf
 
 Limitations
 
-This repository contains selected simulation figures and a description of the modeled case. The complete ANSYS project files are not included. The available figures alone do not establish mesh independence, numerical convergence, or quantitative validation.
+This repository presents selected simulation figures and a description of the modeled case. The complete ANSYS project files are not included.
+
+The available figures alone do not establish mesh independence, numerical convergence, or quantitative validation against experimental data.
 
 Software
 
